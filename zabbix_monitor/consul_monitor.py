@@ -38,7 +38,7 @@ def get_ops():
 
 
 def main():
-    consul_host = '10.10.9.98'
+    consul_host = '127.0.0.1'
     client = ConsulClient(host=consul_host)
 
     parse = get_ops()
